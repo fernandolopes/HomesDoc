@@ -60,6 +60,13 @@ namespace HomesDoc.Core
         {
             try
             {
+                if (item == null)
+                    throw new NullReferenceException("Erro natureza nula");
+                if (item.Id == 0)
+                    throw new ArgumentException("Erro campo Id é obrigatório.");
+                if (item.GrupoId == 0)
+                    throw new ArgumentException("Erro campo grupoId é obrigatório.");
+
                 using (var client = new HttpClient(HttpClientHandler))
                 {
                     client.DefaultRequestHeaders.Add("clientId", ClientId);
@@ -81,8 +88,11 @@ namespace HomesDoc.Core
                     var resp = await client.SendAsync(request);
                     if (resp.IsSuccessStatusCode)
                     {
-                        await resp.Content?.ReadAsStringAsync();
+                        var conteudo = await resp.Content?.ReadAsStringAsync();
                         return true;
+                    } else
+                    {
+                        var conteudo = await resp.Content?.ReadAsStringAsync();
                     }
 
                     return false;

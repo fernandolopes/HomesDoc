@@ -94,6 +94,13 @@ namespace HomesDoc.Core
 
         public async Task<bool> GerarPermissao(Propriedade item)
         {
+            if (item == null)
+                throw new NullReferenceException("Erro permissão nula");
+            if (item.Id == 0)
+                throw new ArgumentException("Erro campo Id é obrigatório.");
+            if(item.NaturezaId == 0)
+                throw new ArgumentException("Erro campo naturezaId é obrigatório.");
+
             using (var client = new HttpClient(HttpClientHandler))
             {
                 client.DefaultRequestHeaders.Add("clientId", ClientId);
@@ -107,6 +114,7 @@ namespace HomesDoc.Core
                 if (resp.IsSuccessStatusCode)
                 {
                     var conteudo = await resp.Content?.ReadAsStringAsync();
+                    return true;
                 }
                 throw new ArgumentException("Erro ao tentar dar Permissão a propriedade.");
             }

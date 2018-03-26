@@ -52,7 +52,7 @@ namespace HomesDoc.Core
         {
             try
             {
-                using (var client = new HttpClient())
+                using (var client = new HttpClient(HttpClientHandler))
                 {
                     client.DefaultRequestHeaders.Add("clientId", ClientId);
                     client.DefaultRequestHeaders.Add("accessToken", AccessToken);

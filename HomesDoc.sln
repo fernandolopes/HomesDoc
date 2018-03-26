@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomesDoc.Core", "HomesDoc.Core\HomesDoc.Core.csproj", "{EEB72DDC-006C-4A07-8C43-AB0C0ADF753C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomesDoc.UnitTest", "HomesDoc.UnitTest\HomesDoc.UnitTest.csproj", "{A11E5AB3-ADCE-4D4C-95EE-791C308E3972}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EEB72DDC-006C-4A07-8C43-AB0C0ADF753C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEB72DDC-006C-4A07-8C43-AB0C0ADF753C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEB72DDC-006C-4A07-8C43-AB0C0ADF753C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEB72DDC-006C-4A07-8C43-AB0C0ADF753C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A11E5AB3-ADCE-4D4C-95EE-791C308E3972}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A11E5AB3-ADCE-4D4C-95EE-791C308E3972}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A11E5AB3-ADCE-4D4C-95EE-791C308E3972}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A11E5AB3-ADCE-4D4C-95EE-791C308E3972}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {922AE247-8833-4333-B876-657AC9FABD7C}
+	EndGlobalSection
+EndGlobal

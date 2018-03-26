@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace DocumentosCurriculoService.Entity
+namespace HomesDoc.Core.Entity
 {
     public class Natureza
     {

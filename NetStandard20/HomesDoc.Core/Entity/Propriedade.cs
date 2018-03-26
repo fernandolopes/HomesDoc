@@ -1,5 +1,5 @@
-﻿namespace DocumentosCurriculoService.Entity
-{
+﻿namespace HomesDoc.Core.Entity
+{ 
     public class Propriedade
     {
         public int Id { get; set; }

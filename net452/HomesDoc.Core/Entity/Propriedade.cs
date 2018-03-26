@@ -1,4 +1,4 @@
-﻿namespace DocumentosCurriculoService.Entity
+﻿namespace HomesDoc.Core.Entity
 {
     public class Propriedade
     {

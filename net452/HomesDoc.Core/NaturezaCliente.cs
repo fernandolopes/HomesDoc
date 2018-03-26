@@ -1,4 +1,4 @@
-﻿using DocumentosCurriculoService.Entity;
+﻿using HomesDoc.Core.Entity;
 using HomesDoc.Core.Interfaces;
 using Newtonsoft.Json;
 using System;

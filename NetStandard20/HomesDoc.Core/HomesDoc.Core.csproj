@@ -8,6 +8,9 @@
     <Description>Pacote para integrar a api de cadastro de documentos.</Description>
     <Copyright></Copyright>
     <NeutralLanguage>pt-BR</NeutralLanguage>
+    <SignAssembly>false</SignAssembly>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <GenerateBindingRedirectsOutputType>true</GenerateBindingRedirectsOutputType>
   </PropertyGroup>
 
   <ItemGroup>

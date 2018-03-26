@@ -22,10 +22,10 @@ namespace HomesDoc.UnitTest
             PClient = new PropriedadeCliente(Dados.UrlBase, Dados.ClientId, Dados.AccessToken);
         }
 
-        [TestMethod]
+        //[TestMethod]
         public void RemoverDocumento()
         {
-            Task.Run(() => Client.Remover()).Wait();
+            Task.Run(() => Client.Remover(0)).Wait();
         }
 
         //[TestMethod]

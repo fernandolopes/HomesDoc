@@ -3,9 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomesDoc.Core", "HomesDoc.Core\HomesDoc.Core.csproj", "{EEB72DDC-006C-4A07-8C43-AB0C0ADF753C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomesDoc.Core", "HomesDoc.Core\HomesDoc.Core.csproj", "{EEB72DDC-006C-4A07-8C43-AB0C0ADF753C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomesDoc.UnitTest", "HomesDoc.UnitTest\HomesDoc.UnitTest.csproj", "{A11E5AB3-ADCE-4D4C-95EE-791C308E3972}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomesDoc.UnitTest", "HomesDoc.UnitTest\HomesDoc.UnitTest.csproj", "{A11E5AB3-ADCE-4D4C-95EE-791C308E3972}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{34ACE470-7F0F-4A7A-A471-A2698A4FA701}"
+	ProjectSection(SolutionItems) = preProject
+		..\README.md = ..\README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
